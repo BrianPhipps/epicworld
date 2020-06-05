@@ -1,5 +1,5 @@
 <template>
-    <div>
+
     <v-container>
         <v-row>
             <v-col
@@ -32,20 +32,22 @@
                 </v-card>
             </v-col>
         </v-row>
-        <v-overlay :value="overlay" >
-            <v-container>
+        <v-overlay  :value="overlay">
+            <div class="mapHolder" >
                 <v-btn
+                        class="mapClose"
                         icon
                         @click="overlay = false"
                 >
                     <v-icon>mdi-close</v-icon>
                 </v-btn>
-                <v-img :src="overlayMap" ></v-img>
-            </v-container>
+                <img class="map" :src="overlayMap" >
+            </div>
         </v-overlay>
     </v-container>
 
-    </div>
+
+
 </template>
 
 <script>
@@ -81,3 +83,17 @@
         }
     }
 </script>
+
+<style>
+    img.map {
+        max-width: 100%;
+        max-height: 100vh;
+        padding: 2vh;
+    }
+    .mapHolder{
+        display: grid;
+    }
+    button.mapClose{
+        position: absolute;
+    }
+</style>
