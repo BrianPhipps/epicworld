@@ -6,37 +6,37 @@
             clipped
     >
       <v-list dense>
-        <v-list-item link>
+        <v-list-item to="/Map" link>
           <v-list-item-action>
             <v-icon>mdi-compass-rose</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title>      <router-link to="/">Map</router-link> </v-list-item-title>
+            <v-list-item-title> Map </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item link>
+        <v-list-item to="/" link>
           <v-list-item-action>
             <v-icon>mdi-account-group</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title>      <router-link to="/">Characters</router-link> </v-list-item-title>
+            <v-list-item-title> Characters </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item link>
+        <v-list-item to="/" link>
           <v-list-item-action>
             <v-icon>mdi-timeline-text</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title>      <router-link to="/">Timeline</router-link> </v-list-item-title>
+            <v-list-item-title> Timeline </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item link>
+        <v-list-item to="/" link>
           <v-list-item-action>
 <!--            <v-icon>mdi-bottle-tonic</v-icon>-->
           <v-icon>mdi-sword</v-icon>
           </v-list-item-action>
           <v-list-item-content>
-            <v-list-item-title>      <router-link to="/">Equipment</router-link> </v-list-item-title>
+            <v-list-item-title> Equipment  </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
