@@ -97,3 +97,8 @@
         position: absolute;
     }
 </style>
+<!--style="background-color: rgb(102, 115, 123);-->
+<!--background-image: url('https://www.transparenttextures.com/patterns/cartographer.png');-->
+
+<!--background-repeat: repeat;-->
+<!--/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */"-->

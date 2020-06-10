@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import Home from './views/Home.vue';
 import Map from './views/Map.vue';
 import Character from './views/Character.vue';
+import Timeline from './views/Timeline';
 
 Vue.use(Router);
 export default new Router({
@@ -23,6 +24,11 @@ export default new Router({
             path: '/Character',
             name: 'character',
             component: Character
+        },
+        {
+            path: '/Timeline',
+            name: 'timeline',
+            component: Timeline
         },
     ]
 });

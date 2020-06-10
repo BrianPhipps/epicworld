@@ -22,7 +22,7 @@
             <v-list-item-title> Characters </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item to="/" link>
+        <v-list-item to="/TimeLine" link>
           <v-list-item-action>
             <v-icon>mdi-timeline-text</v-icon>
           </v-list-item-action>
