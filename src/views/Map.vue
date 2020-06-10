@@ -61,11 +61,11 @@
             Maps: [
                 {
                     name:"Harlan",
-                    src: require(`../assets/HarlanMap.png`)
+                    src: require(`@/assets/map/HarlanMap.png`)
                 },
                 {
                     name:"Harlan and Outlands",
-                    src: require(`../assets/HarlanAndOutlands.png`)
+                    src: require(`@/assets/map/HarlanAndOutlands.png`)
                 }
 
             ],

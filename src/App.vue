@@ -14,7 +14,7 @@
             <v-list-item-title> Map </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item to="/" link>
+        <v-list-item to="/Character" link>
           <v-list-item-action>
             <v-icon>mdi-account-group</v-icon>
           </v-list-item-action>
@@ -49,7 +49,7 @@
     >
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
         <v-spacer></v-spacer>
-      <v-toolbar-title>Great Advanture</v-toolbar-title>
+      <v-toolbar-title>Great Adventure</v-toolbar-title>
         <v-spacer></v-spacer>
     </v-app-bar>
 
