@@ -25,8 +25,8 @@
                                 >
                                     <v-card-title class="profileImgText">{{Character.name}}</v-card-title>
                                 </v-img>
-                                <v-card-subtitle v-if="Character.class !== ''">
-                                    <div  v-if="Character.class !== ''">{{Character.class}}</div><br>
+                                <v-card-subtitle v-if="Character.class !== ''"  class="pa-1 ma-1" >
+                                    <div  v-if="Character.class !== ''">{{Character.class}}</div>
                                     <div v-if="Character.race !== ''">{{Character.race}}</div>
                                 </v-card-subtitle>
 
