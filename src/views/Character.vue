@@ -23,7 +23,7 @@
                                         height="250px"
                                         :src= "Character.src"
                                 >
-                                    <v-card-title>{{Character.name}}</v-card-title>
+                                    <v-card-title class="profileImgText">{{Character.name}}</v-card-title>
                                 </v-img>
                                 <v-card-subtitle v-if="Character.class !== ''">
                                     <div  v-if="Character.class !== ''">{{Character.class}}</div><br>
@@ -60,7 +60,7 @@
                 >
                     <v-card>
                         <v-img :src="profileImg">
-                            <v-card-title>{{profileName}}</v-card-title>
+                            <v-card-title class="profileImgText">{{profileName}}</v-card-title>
                         </v-img>
                     </v-card>
                 </v-col>
@@ -354,5 +354,9 @@
     .profile img {
         width: 100%;
         height: auto;
+    }
+    .profileImgText {
+        display: inline;
+        text-shadow: 2px 2px #000000;
     }
 </style>
