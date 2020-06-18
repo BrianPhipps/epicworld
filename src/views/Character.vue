@@ -1,9 +1,20 @@
 <template>
-    <v-container >
+    <v-container
+            style="background-color: rgb(79,109,123);
+background-image: url('https://www.transparenttextures.com/patterns/escheresque.png');
+  background-repeat: repeat;
+    height: 100%;
+    max-width: 100%;
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */"
+            class="px-2"
+    >
         <v-expansion-panels v-if="!profile">
             <v-expansion-panel
                     v-for="(CharacterType,index) in CharacterTypes"
                     :key="index"
+                    style="background-color: rgb(17,18,25);
+background-image: url('https://www.transparenttextures.com/patterns/escheresque.png');
+  background-repeat: repeat;"
             >
                 <v-expansion-panel-header>{{CharacterType.type}}</v-expansion-panel-header>
                 <v-expansion-panel-content>
@@ -226,7 +237,7 @@
                             race: ""
                         },
                         {
-                            name:"Head Church Guild ??",
+                            name:"Head Artisan Guild ",
                             src: require(`@/assets/npc/ChurchGuildMan.png`),
                             class: "",
                             race: ""

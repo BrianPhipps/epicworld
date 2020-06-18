@@ -1,6 +1,14 @@
 <template>
 
-    <v-container>
+    <v-container dense
+    style="background-color: rgb(214,212,170);
+    background-image: url('https://www.transparenttextures.com/patterns/cartographer.png');
+
+    background-repeat: repeat;
+    height: 100%;
+    max-width: 100%;
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */"
+    >
         <v-row>
             <v-col
                     v-for="(Map, index) in Maps"
