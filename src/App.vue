@@ -30,7 +30,7 @@
             <v-list-item-title> Timeline </v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item to="/" link>
+        <v-list-item to="/Equipment" link>
           <v-list-item-action>
 <!--            <v-icon>mdi-bottle-tonic</v-icon>-->
           <v-icon>mdi-sword</v-icon>

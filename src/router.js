@@ -4,6 +4,7 @@ import Home from './views/Home.vue';
 import Map from './views/Map.vue';
 import Character from './views/Character.vue';
 import Timeline from './views/Timeline';
+import Equipment from './views/Equipment';
 
 Vue.use(Router);
 export default new Router({
@@ -29,6 +30,11 @@ export default new Router({
             path: '/Timeline',
             name: 'timeline',
             component: Timeline
+        },
+        {
+            path: '/Equipment',
+            name: 'equipment',
+            component: Equipment
         },
     ]
 });
